@@ -1,3 +1,24 @@
-h1 {
-    color: red;
+::selection {
+    background-color: grey;
+    color: gold;
+}
+
+.t-white-75 {
+    /* rgba does shades */
+    color: rgba(255,255,255,0.75); 
+}
+
+body {
+    background-image: linear-gradient(70deg, 
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.1))
+}
+
+div>i {
+    margin: 0 10px;
+    transition: all 0.3s ease-in;
+}
+
+div>i:hover {
+    color: #ffc107;
 }
