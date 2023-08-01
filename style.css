@@ -22,3 +22,8 @@ div>i {
 div>i:hover {
     color: #ffc107;
 }
+
+.pf-font {
+    font-family: "Playfait Display", serif;
+    font-style: italic;
+}
